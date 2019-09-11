@@ -112,12 +112,15 @@ nav a{
 	text-decoration: none;
 	margin-bottom: 10px;
 	background-color: lightsteelblue;
-  }
-  
+}
+
+	
   a:hover {
 	background: steelblue;
 	color: honeydew;
   }
+
+
   
   .logo {
 	margin: 1%;
@@ -170,6 +173,11 @@ nav a{
 	margin: 1%;
 	width: 47%;
   }
+  .top-info h4{
+	font-size:15px;
+	margin:1%;
+	font-weight:bold;
+  }
   
   .middle-img {
 	width: 98%;
@@ -188,6 +196,11 @@ nav a{
 	max-width: 30%;
   }
   
+  .bottom-info h4{
+	font-size:15px;
+	margin:1%;
+	font-weight:bold;
+  }
   #contact h4 {
 	margin: 1%;
   }
@@ -286,4 +299,98 @@ nav a{
 .lastcontent li{
 	margin:2%;
 	letter-spacing: 2.0px;
+}
+
+/**(Stretch) About Page CSS**/
+
+.ceo{
+	display:flex;
+	width:98%;
+	margin:1%;
+	border:1px solid black
+}
+
+.ceoInfo{
+	width: 75%;
+	margin:1%;
+	margin-left:-10%;
+}
+.ceoInfo h2{
+	font-weight:bold;
+}
+
+.boss-img{
+	width: 75%;
+	margin: 1%;
+}
+
+.company{
+	display:flex;
+	width:98%;
+	margin:1%;
+	border:1px solid black
+}
+
+.companyInfo{
+	width: 75%;
+	margin:1%;
+}
+
+.companyInfo h2{
+	font-weight:bold;
+}
+
+.company-img{
+	width: 75%;
+	margin: 1%;
+	margin-right:-10%;
+}
+
+/**Media Query**/
+
+@media screen and (max-width:500px){
+	nav {
+		flex-direction:column;
+		margin-top:10%;
+		margin-left:25%;
+}
+}
+
+@media screen and (max-width:500px){
+	.logo {
+		margin-left:-120%;
+
+}
+}
+
+@media screen and (max-width:500px){
+	.infobox {
+		flex-direction:row;
+		flex-wrap:no-wrap;
+		width:98%;
+		margin:1%;
+
+}
+}
+
+
+
+@media screen and (max-width:500px){
+	.information  {
+		flex-direction:column;
+		margin:1%;
+		width:98%;
+		
+
+}
+}
+
+@media screen and (max-width:500px){
+	.bottomimg {
+		margin:1%;
+		widows: 98%;
+		margin-top:50%;
+		margin-left:-95%;
+
+}
 }
